@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "topicos-android-atividades"
 include ':atividade1-login'
+include ':atividade2-layouts'
