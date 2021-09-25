@@ -3,4 +3,5 @@
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="login">Entrar</string>
+    <string name="result">Usuário: %1$s Senha: %2$s</string>
 </resources>
