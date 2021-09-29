@@ -6,54 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".TableLayoutActivity">
 
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proximo_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableEnd="@drawable/ic_baseline_navigate_next_24"/>
+
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="MissingConstraints"
         android:padding="3dp"
-        android:stretchColumns="2">
+        android:stretchColumns="2"
+        tools:ignore="MissingConstraints">
 
         <TableRow>
+
             <Button
-                android:layout_margin="3dp"
                 android:id="@+id/button_color_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="3dp"
                 android:backgroundTint="@color/yellow"
                 android:text="@string/button_color_1" />
+
             <Button
-                android:layout_margin="3dp"
                 android:id="@+id/button_color_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="3dp"
                 android:backgroundTint="@color/green"
                 android:text="@string/button_color_2" />
+
             <Button
-                android:layout_margin="3dp"
                 android:id="@+id/button_color_3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_margin="3dp"
                 android:backgroundTint="@color/red"
                 android:text="@string/button_color_3" />
+
         </TableRow>
 
         <TableRow>
+
             <Button
                 android:id="@+id/button_color_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:layout_span="3"/>
+                android:layout_span="3"
+                android:backgroundTint="@color/black" />
+
         </TableRow>
 
         <TableRow>
+
             <Button
                 android:id="@+id/button_color_clear"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_color_clear"
                 android:layout_column="2"
-                android:layout_span="2"/>
+                android:layout_span="2"
+                android:text="@string/button_color_clear" />
+
         </TableRow>
 
 

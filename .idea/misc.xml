@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="atividade1-login/src/main/res/layout/activity_main.xml" value="0.3052536231884058" />
+        <entry key="atividade2-layouts/src/main/res/layout/activity_exercicio3_constraint_layout.xml" value="0.25829145728643216" />
+        <entry key="atividade2-layouts/src/main/res/layout/activity_relative_layout.xml" value="0.17147922998986828" />
+        <entry key="atividade2-layouts/src/main/res/layout/activity_table_layout.xml" value="0.3052536231884058" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

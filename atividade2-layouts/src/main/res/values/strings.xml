@@ -10,4 +10,10 @@
     <string name="button_color_3">Color 3</string>
     <string name="button_color_clear">Clear</string>
     <string name="proximo_layout">Próximo layout</string>
+    <string name="avisos">Avisos por:</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="e_mail">E-mail</string>
+    <string name="telefone">Telefone</string>
 </resources>
