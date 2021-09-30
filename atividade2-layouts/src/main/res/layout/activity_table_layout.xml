@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:padding="3dp"
+        android:stretchColumns="2">
+
+        <TableRow>
+            <Button
+                android:layout_margin="3dp"
+                android:id="@+id/button_color_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/yellow"
+                android:text="@string/button_color_1" />
+            <Button
+                android:layout_margin="3dp"
+                android:id="@+id/button_color_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:text="@string/button_color_2" />
+            <Button
+                android:layout_margin="3dp"
+                android:id="@+id/button_color_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/red"
+                android:text="@string/button_color_3" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/button_color_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:layout_span="3"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/button_color_clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_color_clear"
+                android:layout_column="2"
+                android:layout_span="2"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

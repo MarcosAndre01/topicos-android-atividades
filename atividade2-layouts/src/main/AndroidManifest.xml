@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Topicosandroidatividades">
         <activity
-            android:name=".GridLayoutActivity"
+            android:name=".TableLayoutActivity"
             android:exported="true" />
         <activity
             android:name=".RelativeLayoutActivity"

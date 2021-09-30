@@ -5,5 +5,9 @@
     <string name="button_3">Button 3</string>
     <string name="button_1">Button 1</string>
     <string name="button_2">Button 2</string>
+    <string name="button_color_1">Color 1</string>
+    <string name="button_color_2">Color 2</string>
+    <string name="button_color_3">Color 3</string>
+    <string name="button_color_clear">Clear</string>
     <string name="proximo_layout">Próximo layout</string>
 </resources>

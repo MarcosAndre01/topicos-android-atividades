@@ -16,7 +16,7 @@ class RelativeLayoutActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.nextButton.setOnClickListener {
-            val intent = Intent(this, GridLayoutActivity::class.java)
+            val intent = Intent(this, TableLayoutActivity::class.java)
             startActivity(intent)
         }
     }
