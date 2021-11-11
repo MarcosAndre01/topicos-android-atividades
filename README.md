@@ -17,7 +17,9 @@ Implementar várias telas para exercitar os [layouts](https://sig-arq.ufpb.br/ar
 
 ![Relative Layout](prints/App2-Tela1-RelativeLayout.png)
 
-- [ ] 2. Table/Grid Layout
+- [x] 2. Table/Grid Layout
+
+![Table Layout](prints/App2-Exercicio2TableLayout.png)
 
 - [ ] 3. Relative e Table/Grid Layout
 
